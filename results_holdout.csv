@@ -1,0 +1,5 @@
+,MAE,RMSE,MAPE_%
+Linear regression,178249.3,233059.6,5.7
+Gradient boosting,191680.7,266742.4,6.0
+Baseline: same weekday last year,205383.6,349022.0,6.5
+Baseline: same weekday last week,226061.8,383048.3,7.1

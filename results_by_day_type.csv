@@ -1,0 +1,4 @@
+day_type,Baseline: same weekday last week,Baseline: same weekday last year,Linear regression,Gradient boosting,n_days
+holiday,61.0,83.4,29.0,55.6,1
+weekday,5.0,4.5,3.9,4.5,63
+weekend,10.0,8.4,9.2,7.6,26
