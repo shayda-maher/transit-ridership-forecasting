@@ -18,22 +18,6 @@ Does a gradient-boosted model forecast ridership more accurately than a linear r
 
 The 2020-2021 pandemic period is excluded from the modeling window because the weekly pattern was structurally different; earlier data is still used to compute the 364-day lag.
 
-## Run it
-```bash
-git clone https://github.com/shayda-maher/transit-ridership-forecasting.git
-cd transit-ridership-forecasting
-pip install -r requirements.txt
-jupyter notebook ridership_forecast.ipynb
-```
-Run all cells. Outputs (figures and CSV tables) are written to `outputs/`.
-
-To use a local copy of the data, set the `RIDERSHIP_CSV` environment variable to its path.
-
-## Results
-Run the notebook to regenerate these. Tables are saved to `outputs/results_holdout.csv`, `outputs/results_cv.csv`, and `outputs/results_by_day_type.csv`.
-
-<!-- After running the notebook, paste the holdout table here and add 2-3 sentences on what you found. -->
-
 ## Limitations
 - One NYC system-wide series; it says nothing about other cities or individual stations.
 - The MTA publishes estimates that can be revised, so results shift slightly as the dataset updates.
